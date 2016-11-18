@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#container {
+  width: 100%;
+  border: none;
+  margin-top: 20px;
+  margin-left: 2.75%;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#basetitle, #title1, #title2, #title3 {
+  text-align: center;
+  border: 1px solid black;
+  margin-top: -2.60%;
+  margin-right: -2.60%;
+  margin-left: 75%;
+}
+
+#title1 {
+  background-color: pink;
+}
+
+#title2 {
+  background-color: crimson;
+}
+
+#title3 {
+  background-color: yellow;
+}
+
+#p1 {
+  width: 30%;
+  background-color: #A52A2A;
+  float: left;
+  margin-top: 0;
+  margin-right: 30px;
+  position: relative;
+}
+
+#p2 {
+  width: 30%;
+  background-color: #DEB887;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+#p3 {
+  width: 30%;
+  background-color: #BEB887;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and(max-width: 991px) {
+  #p1 {
+    width: 45%;
+  }
+  #p2 {
+    width: 45%;
+  }
+  #p3 {
+    margin-top: 30px;
+    margin-right: 0;
+    width: 93.75%;
+    clear: left;
+  }
+  #title3 {
+    margin-top: -1.25%;
+    margin-right: -1.25%;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (min-width: 0px) and (max-width: 767px) {
+  #p1 {
+    margin-top: 30px;
+    margin-right: 0;
+    width: 93.75%;
+    clear: left;
+    float:left;
+  }
+  #p2 {
+    margin-top: 30px;
+    margin-right: 0;
+    width: 93.75%;
+    clear: left;
+    float:left;
+  }
+  #p3 {
+    margin-top: 30px;
+    margin-right: 0;
+    width: 93.75%;
+    clear: left;
+    float:left;
+  }
